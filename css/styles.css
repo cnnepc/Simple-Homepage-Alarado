@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #F2F9FE;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    all: unset;
+}
+
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox] {
+    cursor: pointer;
+}
+
+/* Mobile first queries */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.hero-image {
+    padding: 6rem 2rem;
+}
+
+.hero-container {
+    padding: 5rem;
+}
+
+.hero-subheading {
+    color: #223344;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.hero-heading {
+    color: #111729;
+    font-size: 3.75rem;
+    margin: 1.5rem 0;
+}
+
+.heading-description {
+    color: #909193;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+.cta-container {
+    margin: 2rem 0;
+}
+
+.cta-btn {
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+}
+
+.primary {
+    background-color: #2A4DD0;
+    border-radius: 1rem;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.secondary {
+    background-color: transparent;
+    color: #2A4DD0;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+.feature-list {
+    display: flex;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.feature-item {
+    color: #909193;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
