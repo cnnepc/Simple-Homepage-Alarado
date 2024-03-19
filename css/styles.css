@@ -51,11 +51,14 @@ summary,
 }
 
 .hero-image {
-    padding: 6rem 2rem;
+    display: block;
+    margin: auto;
+    padding: 2rem 0;
+    width: 90%;
 }
 
 .hero-container {
-    padding: 5rem;
+    padding: 6rem;
 }
 
 .hero-subheading {
@@ -117,17 +120,17 @@ summary,
     font-weight: 500;
 }
 
-/* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 1000px) {
+    .hero-image {
+        display: block;
+        margin: auto;
+        padding: 2rem 0;
+        width: 60%;
+    }
 
-/* Larger than phablet */
-@media (min-width: 550px) {}
+    .hero-container {
+        padding: 7rem;
+    }
+}
 
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
 @media (min-width: 1200px) {}
